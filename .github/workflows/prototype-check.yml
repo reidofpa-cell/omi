@@ -1,0 +1,39 @@
+name: prototype-check
+on:
+  push:
+    branches: [prototype-ci]
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.44.5
+          channel: stable
+      - name: Analyze, test, render screenshots
+        working-directory: prototypes/device_first_onboarding
+        run: |
+          set +e
+          export FLUTTER_ROOT="$(dirname "$(dirname "$(which flutter)")")"
+          {
+            echo "## flutter --version"; flutter --version
+            echo "## pub get"; flutter pub get; echo "pubget_exit=$?"
+            echo "## format"; dart format --line-length 120 lib test; echo "format_exit=$?"
+            echo "## analyze"; flutter analyze; echo "analyze_exit=$?"
+            echo "## test"; flutter test --exclude-tags screenshots --reporter expanded; echo "test_exit=$?"
+            echo "## screenshots"; flutter test --tags screenshots --update-goldens; echo "shots_exit=$?"
+          } > ci-log.txt 2>&1
+          cat ci-log.txt
+      - name: Publish results to prototype-ci-results
+        if: always()
+        run: |
+          git config user.name "prototype-ci"
+          git config user.email "prototype-ci@users.noreply.github.com"
+          git checkout -B prototype-ci-results
+          git add -f prototypes/device_first_onboarding/ci-log.txt prototypes/device_first_onboarding/test/goldens prototypes/device_first_onboarding/lib prototypes/device_first_onboarding/test 2>/dev/null || true
+          git commit -m "CI results for ${GITHUB_SHA}" || true
+          git push -f origin prototype-ci-results
