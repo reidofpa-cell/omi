@@ -99,7 +99,6 @@ void main() {
     expect(find.text('Call the plumber'), findsOneWidget);
     await tapText(tester, 'Sign the lease renewal');
     expect(tester.getSemantics(find.bySemanticsLabel('Sign the lease renewal')), isSemantics(isChecked: true));
-
   });
 
   testWidgets('Ask Omi answers a suggestion with sources', (tester) async {

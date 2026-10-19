@@ -211,7 +211,9 @@ class _AskBar extends StatelessWidget {
   Widget build(BuildContext context) {
     final t = DfThemeScope.of(context);
     final state = OmiAppScope.of(context);
-    final shadow = <BoxShadow>[BoxShadow(color: Colors.black.withValues(alpha: 0.10), blurRadius: 18, offset: const Offset(0, 6))];
+    final shadow = <BoxShadow>[
+      BoxShadow(color: Colors.black.withValues(alpha: 0.10), blurRadius: 18, offset: const Offset(0, 6))
+    ];
     return Padding(
       padding: const EdgeInsets.only(bottom: 10),
       child: Row(
@@ -386,7 +388,8 @@ class _CaptureCard extends StatelessWidget {
                   style: t.label(size: 14, weight: FontWeight.w600),
                 ),
               ),
-              Text(listening ? 'Live Transcript' : 'Tap record to resume', style: t.body(size: 12, color: t.textTertiary)),
+              Text(listening ? 'Live Transcript' : 'Tap record to resume',
+                  style: t.body(size: 12, color: t.textTertiary)),
             ],
           ),
           const SizedBox(height: 10),

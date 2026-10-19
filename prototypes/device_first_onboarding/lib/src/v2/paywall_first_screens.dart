@@ -798,7 +798,8 @@ class _AmountRow extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 4),
       child: Row(
         children: <Widget>[
-          Expanded(child: Text(label, style: t.label(size: 14, weight: weight, color: strong ? t.text : t.textSecondary))),
+          Expanded(
+              child: Text(label, style: t.label(size: 14, weight: weight, color: strong ? t.text : t.textSecondary))),
           Text(amount, style: t.label(size: 14, weight: weight)),
         ],
       ),

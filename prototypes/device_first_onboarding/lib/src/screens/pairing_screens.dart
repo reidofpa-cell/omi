@@ -11,7 +11,11 @@ import '../widgets.dart';
 /// The prototype fakes discovery: after [searchDuration] it reports the
 /// device as found. In the app this is the BLE scan.
 class FindDeviceScreen extends StatefulWidget {
-  const FindDeviceScreen({super.key, this.progress = (step: 1, total: 5), required this.onFound, this.searchDuration = const Duration(seconds: 3)});
+  const FindDeviceScreen(
+      {super.key,
+      this.progress = (step: 1, total: 5),
+      required this.onFound,
+      this.searchDuration = const Duration(seconds: 3)});
 
   /// Position in the progress bar; differs between the v1 and paywall-first flows.
   final ({int step, int total}) progress;
@@ -80,7 +84,8 @@ class _FindDeviceScreenState extends State<FindDeviceScreen> {
 
 /// 06 — Omi found.
 class DeviceFoundScreen extends StatelessWidget {
-  const DeviceFoundScreen({super.key, this.progress = (step: 1, total: 5), required this.onPair, required this.onScanAgain});
+  const DeviceFoundScreen(
+      {super.key, this.progress = (step: 1, total: 5), required this.onPair, required this.onScanAgain});
 
   /// Position in the progress bar; differs between the v1 and paywall-first flows.
   final ({int step, int total}) progress;

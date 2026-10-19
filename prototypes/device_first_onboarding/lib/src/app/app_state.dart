@@ -59,6 +59,5 @@ class OmiAppState extends ChangeNotifier {
 class OmiAppScope extends InheritedNotifier<OmiAppState> {
   const OmiAppScope({super.key, required OmiAppState state, required super.child}) : super(notifier: state);
 
-  static OmiAppState of(BuildContext context) =>
-      context.dependOnInheritedWidgetOfExactType<OmiAppScope>()!.notifier!;
+  static OmiAppState of(BuildContext context) => context.dependOnInheritedWidgetOfExactType<OmiAppScope>()!.notifier!;
 }

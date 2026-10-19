@@ -129,22 +129,22 @@ class DfTheme {
   );
 
   static DfTheme of(DfDirection direction) => switch (direction) {
-    DfDirection.auroraLight => auroraLight,
-    DfDirection.aurora => aurora,
-    DfDirection.graphite => graphite,
-  };
+        DfDirection.auroraLight => auroraLight,
+        DfDirection.aurora => aurora,
+        DfDirection.graphite => graphite,
+      };
 
   static const String serifFamily = 'InstrumentSerif';
 
   /// Faint aurora wash for the top of light screens.
   Gradient get wash => LinearGradient(
-    begin: Alignment.topCenter,
-    end: Alignment.bottomCenter,
-    colors: <Color>[
-      (glow ?? <Color>[surface2]).first.withValues(alpha: isLight ? 0.10 : 0.16),
-      background,
-    ],
-  );
+        begin: Alignment.topCenter,
+        end: Alignment.bottomCenter,
+        colors: <Color>[
+          (glow ?? <Color>[surface2]).first.withValues(alpha: isLight ? 0.10 : 0.16),
+          background,
+        ],
+      );
 
   bool get hasGlow => glow != null;
 

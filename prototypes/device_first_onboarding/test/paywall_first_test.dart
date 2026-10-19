@@ -45,7 +45,8 @@ void main() {
       for (final direction in DfDirection.values) {
         for (final step in V2Step.values) {
           testWidgets('${direction.label} ${size.width.toInt()}x${size.height.toInt()} ${step.title}', (tester) async {
-            await pumpV2(tester, direction: direction, step: step, size: size, searchDuration: const Duration(hours: 1));
+            await pumpV2(tester,
+                direction: direction, step: step, size: size, searchDuration: const Duration(hours: 1));
             expect(tester.takeException(), isNull);
           });
         }

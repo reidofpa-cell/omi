@@ -372,7 +372,8 @@ class _SliderRow extends StatelessWidget {
             overlayColor: t.text.withValues(alpha: 0.08),
             trackHeight: 4,
           ),
-          child: Slider(value: value, onChanged: onChanged, semanticFormatterCallback: (v) => '$label ${(v * 100).round()}%'),
+          child: Slider(
+              value: value, onChanged: onChanged, semanticFormatterCallback: (v) => '$label ${(v * 100).round()}%'),
         ),
       ],
     );

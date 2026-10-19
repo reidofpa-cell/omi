@@ -1,0 +1,576 @@
+## flutter --version
+Flutter 3.44.5 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision f94f4fc76b (4 months ago) • 2026-07-06 11:19:24 -0700
+Engine • hash d3a3293399556a85388faf8c6f0723a7a5597aa8 (revision 83675ed276) (3 months ago) • 2026-06-30 16:59:03.000Z
+Tools • Dart 3.12.2 • DevTools 2.57.0
+## pub get
+Resolving dependencies...
+Downloading packages...
++ async 2.13.1
++ boolean_selector 2.1.2
++ characters 1.4.1
++ clock 1.1.2 (1.1.3 available)
++ collection 1.19.1
++ fake_async 1.3.3
++ flutter 0.0.0 from sdk flutter
++ flutter_lints 5.0.0 (6.0.0 available)
++ flutter_test 0.0.0 from sdk flutter
++ leak_tracker 11.0.2
++ leak_tracker_flutter_testing 3.0.10
++ leak_tracker_testing 3.0.2
++ lints 5.1.1 (6.1.0 available)
++ matcher 0.12.19 (0.12.20 available)
++ material_color_utilities 0.13.0 (0.13.1 available)
++ meta 1.18.0 (1.19.0 available)
++ path 1.9.1
++ sky_engine 0.0.0 from sdk flutter
++ source_span 1.10.2
++ stack_trace 1.12.1 (1.12.2 available)
++ stream_channel 2.1.4
++ string_scanner 1.4.1
++ term_glyph 1.2.2
++ test_api 0.7.11 (0.7.15 available)
++ vector_math 2.2.0 (2.4.3 available)
++ vm_service 15.4.0
+Changed 26 dependencies!
+9 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+pubget_exit=0
+## format
+Formatted lib/src/app/app_shell.dart
+Formatted lib/src/app/app_state.dart
+Formatted lib/src/app/conversation_page.dart
+Formatted lib/src/app/mock_data.dart
+Formatted lib/src/app/settings_pages.dart
+Formatted lib/src/content.dart
+Formatted lib/src/launcher.dart
+Formatted lib/src/screens/pairing_screens.dart
+Formatted lib/src/theme.dart
+Formatted lib/src/v2/paywall_first_screens.dart
+Formatted lib/src/widgets.dart
+Formatted test/app_test.dart
+Formatted test/paywall_first_test.dart
+Formatted 29 files (13 changed) in 0.08 seconds.
+format_exit=0
+## analyze
+Analyzing device_first_onboarding...                            
+No issues found! (ran in 7.4s)
+analyze_exit=0
+## test
+00:00 +0: loading /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart
+00:00 +0: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A1 Home
+00:00 +1: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A1 Home
+00:00 +2: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A1 Home
+00:00 +3: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A1 Home
+00:00 +4: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A1 Home
+00:00 +5: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 390x844 05 Find your Omi
+00:00 +6: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A2 Tasks
+00:00 +7: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A2 Tasks
+00:00 +8: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 390x844 07 Paired
+00:00 +9: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A3 Conversation · Summary
+00:00 +10: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 390x844 08 Name
+00:00 +11: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 390x844 08 Name
+00:01 +12: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 390x844 08 Name
+00:01 +13: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A6 Ask Omi
+00:01 +14: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A6 Ask Omi
+00:01 +15: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A6 Ask Omi
+00:01 +16: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A6 Ask Omi
+00:01 +17: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 390x844 12 Setting up
+00:01 +18: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A7 Ask Omi · answer
+00:01 +19: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 390x844 13 Your Omi is ready
+00:01 +20: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A8 Search
+00:01 +21: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 390x844 14 Soft paywall
+00:01 +22: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A9 Settings
+00:01 +23: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 390x844 15 Trial started
+00:01 +24: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A10 Plan & Usage
+00:01 +25: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A10 Plan & Usage
+00:01 +26: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 390x844 B2 Order summary
+00:01 +27: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A11 Upgrade · cap hit
+00:01 +28: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 390x844 B3 Waiting room
+00:01 +29: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A12 Device
+00:01 +30: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A12 Device
+00:01 +31: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A12 Device
+00:01 +32: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 390x844 01 Welcome
+00:01 +33: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A13 Memories
+00:01 +34: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A13 Memories
+00:01 +35: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 390x844 03 Data & Privacy
+00:01 +36: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A14 Integrations
+00:01 +37: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A14 Integrations
+00:01 +38: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 390x844 05 Find your Omi
+00:01 +39: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A15 App detail
+00:01 +40: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A15 App detail
+00:01 +41: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 390x844 07 Paired
+00:01 +42: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 390x844 A16 Recording
+00:01 +43: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 390x844 08 Name
+00:01 +44: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A1 Home
+00:02 +45: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A1 Home
+00:02 +46: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 390x844 10 Permissions
+00:02 +47: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A2 Tasks
+00:02 +48: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A2 Tasks
+00:02 +49: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 390x844 12 Setting up
+00:02 +50: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A3 Conversation · Summary
+00:02 +51: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A3 Conversation · Summary
+00:02 +52: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 390x844 14 Soft paywall
+00:02 +53: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A4 Conversation · Transcript
+00:02 +54: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A4 Conversation · Transcript
+00:02 +55: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 390x844 B1 Get your Omi
+00:02 +56: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A5 Daily recap
+00:02 +57: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 390x844 B2 Order summary
+00:02 +58: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A6 Ask Omi
+00:02 +59: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A6 Ask Omi
+00:02 +60: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 390x844 B4 Delivered push
+00:02 +61: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A7 Ask Omi · answer
+00:02 +62: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A7 Ask Omi · answer
+00:02 +63: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 390x844 01 Welcome
+00:02 +64: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A8 Search
+00:02 +65: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A8 Search
+00:02 +66: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 390x844 03 Data & Privacy
+00:02 +67: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A9 Settings
+00:02 +68: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A9 Settings
+00:02 +69: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 390x844 05 Find your Omi
+00:02 +70: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A10 Plan & Usage
+00:02 +71: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A10 Plan & Usage
+00:02 +72: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 390x844 07 Paired
+00:02 +73: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A11 Upgrade · cap hit
+00:02 +74: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 390x844 08 Name
+00:02 +75: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A12 Device
+00:02 +76: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 390x844 09 Language
+00:02 +77: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A13 Memories
+00:02 +78: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A13 Memories
+00:02 +79: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 390x844 11 Voice introduction
+00:02 +80: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A14 Integrations
+00:02 +81: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 390x844 12 Setting up
+00:02 +82: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A15 App detail
+00:02 +83: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 390x844 13 Your Omi is ready
+00:02 +84: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 390x844 A16 Recording
+00:02 +85: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 390x844 14 Soft paywall
+00:02 +86: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A1 Home
+00:02 +87: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A1 Home
+00:02 +88: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 390x844 B1 Get your Omi
+00:02 +89: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A2 Tasks
+00:02 +90: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A2 Tasks
+00:02 +91: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 390x844 B3 Waiting room
+00:02 +92: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A3 Conversation · Summary
+00:03 +93: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A3 Conversation · Summary
+00:03 +94: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A3 Conversation · Summary
+00:03 +95: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 01 Welcome
+00:03 +96: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A4 Conversation · Transcript
+00:03 +97: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A4 Conversation · Transcript
+00:03 +98: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 03 Data & Privacy
+00:03 +99: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A5 Daily recap
+00:03 +100: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A5 Daily recap
+00:03 +101: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 05 Find your Omi
+00:03 +102: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A6 Ask Omi
+00:03 +103: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 06 Omi found
+00:03 +104: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A7 Ask Omi · answer
+00:03 +105: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 07 Paired
+00:03 +106: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A8 Search
+00:03 +107: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 08 Name
+00:03 +108: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A9 Settings
+00:03 +109: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A9 Settings
+00:03 +110: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 10 Permissions
+00:03 +111: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A10 Plan & Usage
+00:03 +112: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 11 Voice introduction
+00:03 +113: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A11 Upgrade · cap hit
+00:03 +114: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 12 Setting up
+00:03 +115: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A12 Device
+00:03 +116: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 13 Your Omi is ready
+00:03 +117: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A13 Memories
+00:03 +118: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 14 Soft paywall
+00:03 +119: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A14 Integrations
+00:03 +120: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 15 Trial started
+00:03 +121: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A15 App detail
+00:03 +122: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A15 App detail
+00:03 +123: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 B2 Order summary
+00:03 +124: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 390x844 A16 Recording
+00:03 +125: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 B3 Waiting room
+00:03 +126: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A1 Home
+00:03 +127: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora Light 375x667 B4 Delivered push
+00:03 +128: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A2 Tasks
+00:03 +129: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A2 Tasks
+00:03 +130: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A2 Tasks
+00:03 +131: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 375x667 02 Sign in
+00:03 +132: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A3 Conversation · Summary
+00:03 +133: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A3 Conversation · Summary
+00:03 +134: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 375x667 04 Do you have your Omi?
+00:03 +135: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A4 Conversation · Transcript
+00:03 +136: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A4 Conversation · Transcript
+00:03 +137: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 375x667 06 Omi found
+00:03 +138: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A5 Daily recap
+00:03 +139: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A5 Daily recap
+00:03 +140: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 375x667 08 Name
+00:03 +141: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A6 Ask Omi
+00:03 +142: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 375x667 09 Language
+00:03 +143: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A7 Ask Omi · answer
+00:03 +144: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 375x667 10 Permissions
+00:03 +145: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A8 Search
+00:03 +146: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A8 Search
+00:03 +147: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 375x667 12 Setting up
+00:04 +148: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A9 Settings
+00:04 +149: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 375x667 13 Your Omi is ready
+00:04 +150: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A10 Plan & Usage
+00:04 +151: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 375x667 14 Soft paywall
+00:04 +152: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A11 Upgrade · cap hit
+00:04 +153: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A11 Upgrade · cap hit
+00:04 +154: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 375x667 B1 Get your Omi
+00:04 +155: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A12 Device
+00:04 +156: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A12 Device
+00:04 +157: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 375x667 B3 Waiting room
+00:04 +158: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A13 Memories
+00:04 +159: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A13 Memories
+00:04 +160: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Aurora 375x667 Home
+00:04 +161: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A14 Integrations
+00:04 +162: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 01 Welcome
+00:04 +163: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A15 App detail
+00:04 +164: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A15 App detail
+00:04 +165: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A15 App detail
+00:04 +166: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 04 Do you have your Omi?
+00:04 +167: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora Light 375x667 A16 Recording
+00:04 +168: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 05 Find your Omi
+00:04 +169: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A1 Home
+00:04 +170: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A1 Home
+00:04 +171: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 07 Paired
+00:04 +172: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A2 Tasks
+00:04 +173: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 08 Name
+00:04 +174: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A3 Conversation · Summary
+00:04 +175: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A3 Conversation · Summary
+00:04 +176: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 10 Permissions
+00:04 +177: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A4 Conversation · Transcript
+00:04 +178: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 11 Voice introduction
+00:04 +179: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A5 Daily recap
+00:04 +180: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 12 Setting up
+00:04 +181: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A6 Ask Omi
+00:04 +182: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 13 Your Omi is ready
+00:04 +183: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A7 Ask Omi · answer
+00:04 +184: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 14 Soft paywall
+00:04 +185: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A8 Search
+00:04 +186: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A8 Search
+00:04 +187: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 B1 Get your Omi
+00:04 +188: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A9 Settings
+00:04 +189: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A9 Settings
+00:04 +190: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 B3 Waiting room
+00:04 +191: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 B3 Waiting room
+00:04 +192: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A11 Upgrade · cap hit
+00:04 +193: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A11 Upgrade · cap hit
+00:04 +194: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: every screen renders without overflow Graphite 375x667 Home
+00:04 +195: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Aurora 375x667 A12 Device
+00:04 +196: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:04 +197: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:04 +198: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:04 +199: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:04 +200: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:04 +201: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:04 +202: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:05 +203: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:05 +204: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:05 +205: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:05 +206: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:05 +207: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:05 +208: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: has-an-Omi path pairs, onboards and starts a trial
+00:05 +209: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 375x667 A9 Settings
+00:05 +210: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: "See my plan" stays disabled until setup finishes
+00:05 +211: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: "See my plan" stays disabled until setup finishes
+00:05 +212: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 375x667 A11 Upgrade · cap hit
+00:05 +213: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: no-Omi path goes buy, checkout, waiting room, then pairing
+00:05 +214: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: no-Omi path goes buy, checkout, waiting room, then pairing
+00:05 +215: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 375x667 A13 Memories
+00:05 +216: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: "It's on the way" waits, then the delivery push opens pairing
+00:05 +217: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: "It's on the way" waits, then the delivery push opens pairing
+00:05 +218: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Graphite 375x667 A15 App detail
+00:05 +219: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: paywall copy follows the trial arm 3 days
+00:05 +220: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: paywall copy follows the trial arm 3 days
+00:05 +221: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Unlimited 375x667 A1 Home
+00:05 +222: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: paywall copy follows the trial arm 7 days
+00:05 +223: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Unlimited 375x667 A2 Tasks
+00:05 +224: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: paywall copy follows the trial arm 14 days
+00:05 +225: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Unlimited 375x667 A3 Conversation · Summary
+00:05 +226: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: paywall copy follows the trial arm 30 days
+00:05 +227: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: paywall copy follows the trial arm 30 days
+00:05 +228: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Unlimited 375x667 A5 Daily recap
+00:05 +229: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: choosing Monthly starts a monthly trial
+00:05 +230: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: choosing Monthly starts a monthly trial
+00:05 +231: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Unlimited 375x667 A7 Ask Omi · answer
+00:05 +232: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: launcher opens the v1 flow in the chosen direction and trial arm
+00:05 +233: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: launcher opens the v1 flow in the chosen direction and trial arm
+00:05 +234: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: launcher opens the v1 flow in the chosen direction and trial arm
+00:05 +235: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: launcher opens the v1 flow in the chosen direction and trial arm
+00:05 +236: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: launcher opens the v1 flow in the chosen direction and trial arm
+00:05 +237: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: launcher opens the v1 flow in the chosen direction and trial arm
+00:05 +238: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: launcher opens the v1 flow in the chosen direction and trial arm
+00:06 +239: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/flow_test.dart: launcher opens the v1 flow in the chosen direction and trial arm
+00:06 +240: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Unlimited 375x667 A15 App detail
+00:06 +241: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: every app screen renders without overflow Unlimited 375x667 A16 Recording
+00:06 +242: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: Free home locks older conversations; upgrading unlocks them
+00:06 +243: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: closing the in-app paywall keeps Free
+00:06 +244: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 01 Welcome
+00:06 +245: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 01 Welcome
+00:07 +246: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 01 Welcome
+00:07 +247: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: Ask Omi answers a suggestion with sources
+00:07 +248: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 02 Paywall
+00:07 +249: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: search filters conversations and switches to people
+00:07 +250: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 03 Pay via web
+00:07 +251: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: settings reach plan, device, memories and integrations
+00:08 +252: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: settings reach plan, device, memories and integrations
+00:08 +253: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: settings reach plan, device, memories and integrations
+00:08 +254: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 06 Permissions
+00:08 +255: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: the device pill opens the device page
+00:08 +256: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: the device pill opens the device page
+00:08 +257: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 08 Find your Omi
+00:08 +258: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: pausing listening updates the capture card
+00:08 +259: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: pausing listening updates the capture card
+00:08 +260: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/app_test.dart: pausing listening updates the capture card
+00:08 +261: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 11 Name
+00:08 +262: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 11 Name
+00:08 +263: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 12 Voice introduction
+00:08 +264: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 13 Setting up
+00:08 +265: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 14 Your Omi is ready
+00:08 +266: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 B1 Get your Omi
+00:08 +267: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 B2 Order summary
+00:08 +268: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 B3 Waiting room
+00:08 +269: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 B4 Delivered push
+00:08 +270: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 390x844 Home
+00:08 +271: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 01 Welcome
+00:08 +272: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 02 Paywall
+00:08 +273: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 03 Pay via web
+00:09 +274: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 04 App Store
+00:09 +275: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 05 Winback · 30 days
+00:09 +276: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 06 Permissions
+00:09 +277: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 07 Let's get your Omi set up
+00:09 +278: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 08 Find your Omi
+00:09 +279: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 09 Omi found
+00:09 +280: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 10 Paired
+00:09 +281: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 11 Name
+00:09 +282: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 12 Voice introduction
+00:09 +283: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 13 Setting up
+00:09 +284: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 14 Your Omi is ready
+00:09 +285: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 B1 Get your Omi
+00:09 +286: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 B2 Order summary
+00:09 +287: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 B3 Waiting room
+00:09 +288: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 B4 Delivered push
+00:09 +289: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 390x844 Home
+00:09 +290: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 01 Welcome
+00:09 +291: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 02 Paywall
+00:09 +292: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 03 Pay via web
+00:09 +293: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 04 App Store
+00:09 +294: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 05 Winback · 30 days
+00:09 +295: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 06 Permissions
+00:09 +296: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 07 Let's get your Omi set up
+00:09 +297: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 08 Find your Omi
+00:09 +298: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 09 Omi found
+00:09 +299: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 10 Paired
+00:09 +300: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 11 Name
+00:10 +301: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 12 Voice introduction
+00:10 +302: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 13 Setting up
+00:10 +303: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 14 Your Omi is ready
+00:10 +304: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 B1 Get your Omi
+00:10 +305: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 B2 Order summary
+00:10 +306: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 B3 Waiting room
+00:10 +307: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 B4 Delivered push
+00:10 +308: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 390x844 Home
+00:10 +309: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 01 Welcome
+00:10 +310: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 02 Paywall
+00:10 +311: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 03 Pay via web
+00:10 +312: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 04 App Store
+00:10 +313: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 05 Winback · 30 days
+00:10 +314: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 06 Permissions
+00:10 +315: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 07 Let's get your Omi set up
+00:10 +316: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 08 Find your Omi
+00:10 +317: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 09 Omi found
+00:10 +318: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 10 Paired
+00:10 +319: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 11 Name
+00:10 +320: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 12 Voice introduction
+00:10 +321: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 13 Setting up
+00:10 +322: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 14 Your Omi is ready
+00:10 +323: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 B1 Get your Omi
+00:10 +324: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 B2 Order summary
+00:10 +325: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 B3 Waiting room
+00:10 +326: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 B4 Delivered push
+00:10 +327: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora Light 375x667 Home
+00:10 +328: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 01 Welcome
+00:10 +329: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 02 Paywall
+00:10 +330: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 03 Pay via web
+00:10 +331: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 04 App Store
+00:10 +332: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 05 Winback · 30 days
+00:11 +333: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 06 Permissions
+00:11 +334: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 07 Let's get your Omi set up
+00:11 +335: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 08 Find your Omi
+00:11 +336: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 09 Omi found
+00:11 +337: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 10 Paired
+00:11 +338: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 11 Name
+00:11 +339: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 12 Voice introduction
+00:11 +340: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 13 Setting up
+00:11 +341: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 14 Your Omi is ready
+00:11 +342: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 B1 Get your Omi
+00:11 +343: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 B2 Order summary
+00:11 +344: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 B3 Waiting room
+00:11 +345: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 B4 Delivered push
+00:11 +346: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Aurora 375x667 Home
+00:11 +347: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 01 Welcome
+00:11 +348: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 02 Paywall
+00:11 +349: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 03 Pay via web
+00:11 +350: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 04 App Store
+00:11 +351: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 05 Winback · 30 days
+00:11 +352: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 06 Permissions
+00:11 +353: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 07 Let's get your Omi set up
+00:11 +354: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 08 Find your Omi
+00:11 +355: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 09 Omi found
+00:11 +356: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 10 Paired
+00:11 +357: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 11 Name
+00:11 +358: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 12 Voice introduction
+00:11 +359: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 13 Setting up
+00:11 +360: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 14 Your Omi is ready
+00:11 +361: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 B1 Get your Omi
+00:11 +362: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 B2 Order summary
+00:11 +363: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 B3 Waiting room
+00:11 +364: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 B4 Delivered push
+00:11 +365: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: every paywall-first screen renders without overflow Graphite 375x667 Home
+00:11 +366: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: sign-in leads straight to the paywall
+00:11 +367: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: the paywall timeline is dated from today for each arm 3 days
+00:12 +368: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: the paywall timeline is dated from today for each arm 7 days
+00:12 +369: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: the paywall timeline is dated from today for each arm 14 days
+00:12 +370: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: closing the paywall shows the 30-day winback once; declining goes to setup
+00:12 +371: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: claiming the winback opens web checkout for 30 days
+00:12 +372: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: "Try for $0.00" opens web checkout for the arm; closing returns to the paywall
+00:12 +373: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: App Store purchase goes to setup
+00:12 +374: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: Bluetooth is required before setup continues
+00:12 +375: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: declining everything still pairs and lands in the app on Free
+00:12 +376: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: a trial started on the paywall carries into the app
+00:13 +377: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: "I don't have my Omi yet" leads to buying one
+00:13 +378: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: "Get one now" buys, waits, then pairs
+00:13 +379: /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/paywall_first_test.dart: launcher opens the paywall-first flow in Aurora Light by default
+00:13 +380: All tests passed!
+test_exit=0
+## screenshots
+
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight welcome
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight paywall
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight webCheckout
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight appStore
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight winback
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight permissions
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight setupIntro
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight find
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight found
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight paired
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight name
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight voice
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight finishing
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight ready
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight buy
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight checkout
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight waiting
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight arrival
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 auroraLight app
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora welcome
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora paywall
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora webCheckout
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora appStore
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora winback
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora permissions
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora setupIntro
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora find
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora found
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora paired
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora name
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora voice
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora finishing
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora ready
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora buy
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora checkout
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora waiting
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora arrival
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 aurora app
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite welcome
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite paywall
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite webCheckout
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite appStore
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite winback
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite permissions
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite setupIntro
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite find
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite found
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite paired
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite name
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite voice
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite finishing
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite ready
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite buy
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite checkout
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite waiting
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite arrival
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v2 graphite app
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A1 Home
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A2 Tasks
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A3 Conversation · Summary
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A4 Conversation · Transcript
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A5 Daily recap
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A6 Ask Omi
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A7 Ask Omi · answer
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A8 Search
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A9 Settings
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A10 Plan & Usage
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A11 Upgrade · cap hit
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A12 Device
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A13 Memories
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A14 Integrations
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A15 App detail
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app free A16 Recording
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A1 Home
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A2 Tasks
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A3 Conversation · Summary
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A4 Conversation · Transcript
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A5 Daily recap
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A6 Ask Omi
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A7 Ask Omi · answer
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A8 Search
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A9 Settings
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A10 Plan & Usage
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A11 Upgrade · cap hit
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A12 Device
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A13 Memories
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A14 Integrations
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A15 App detail
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: app unlimited A16 Recording
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite welcome
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite signIn
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite privacy
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite fork
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite find
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite found
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite paired
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite name
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite language
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite permissions
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite voice
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite setup
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite ready
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite paywall
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite trialStarted
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite buy
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite checkout
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite waiting
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite arrival
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 graphite end
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora welcome
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora signIn
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora privacy
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora fork
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora find
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora found
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora paired
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora name
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora language
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora permissions
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora voice
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora setup
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora ready
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora paywall
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora trialStarted
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora buy
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora checkout
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora waiting
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora arrival
+✅ /home/runner/work/omi/omi/prototypes/device_first_onboarding/test/screenshots_test.dart: v1 aurora end
+
+🎉 129 tests passed.
+shots_exit=0

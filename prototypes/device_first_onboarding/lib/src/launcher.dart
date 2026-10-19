@@ -37,8 +37,7 @@ class _PrototypeLauncherState extends State<PrototypeLauncher> {
 
   DateTime get _today => dfDay(widget.today ?? DateTime.now());
 
-  List<TrialLength> get _arms =>
-      _flow == PrototypeFlow.paywallFirst ? DfOffer.paywallFirstArms : TrialLength.values;
+  List<TrialLength> get _arms => _flow == PrototypeFlow.paywallFirst ? DfOffer.paywallFirstArms : TrialLength.values;
 
   void _push(Widget Function(VoidCallback exit) page) {
     final navigator = Navigator.of(context);

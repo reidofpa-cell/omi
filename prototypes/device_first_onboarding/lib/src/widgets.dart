@@ -532,7 +532,6 @@ class DfBackRow extends StatelessWidget {
   }
 }
 
-
 /// The Omi mark: a ring and the wordmark.
 class DfOmiMark extends StatelessWidget {
   const DfOmiMark({super.key, this.size = 18, this.color});
@@ -618,7 +617,8 @@ class DfSegmented extends StatelessWidget {
 
 /// Rounded search / text field.
 class DfSearchField extends StatelessWidget {
-  const DfSearchField({super.key, required this.hint, this.onChanged, this.autofocus = false, this.icon = Icons.search});
+  const DfSearchField(
+      {super.key, required this.hint, this.onChanged, this.autofocus = false, this.icon = Icons.search});
 
   final String hint;
   final ValueChanged<String>? onChanged;
@@ -764,9 +764,8 @@ class DfSheetOver extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 color: t.surface,
-                borderRadius: floating
-                    ? BorderRadius.circular(30)
-                    : const BorderRadius.vertical(top: Radius.circular(28)),
+                borderRadius:
+                    floating ? BorderRadius.circular(30) : const BorderRadius.vertical(top: Radius.circular(28)),
               ),
               clipBehavior: Clip.antiAlias,
               child: SafeArea(top: false, bottom: !floating, child: SingleChildScrollView(child: sheet)),

@@ -123,8 +123,7 @@ class MockData {
       id: 'launch',
       icon: Icons.rocket_launch_outlined,
       title: 'Launch timing with Maya',
-      overview:
-          'Agreed to move the launch to Thursday if QA signs off by Wednesday. You will send Maya the revised '
+      overview: 'Agreed to move the launch to Thursday if QA signs off by Wednesday. You will send Maya the revised '
           'deck by Friday; she will brief support on the new onboarding.',
       start: _at(0, 9, 12),
       minutes: 24,
@@ -149,8 +148,7 @@ class MockData {
       id: 'coffee',
       icon: Icons.coffee_outlined,
       title: 'Coffee with Sam about the seed round',
-      overview:
-          'Sam suggested leading with retention numbers and offered an intro to two angels. Follow up with '
+      overview: 'Sam suggested leading with retention numbers and offered an intro to two angels. Follow up with '
           'the updated metrics one-pager.',
       start: _at(0, 11, 40),
       minutes: 38,
@@ -261,8 +259,7 @@ class MockData {
       color: Color(0xFF4285F4),
       category: 'Productivity',
       tagline: 'Turn plans you mention into events',
-      description:
-          'When you agree on a time in conversation, Omi drafts the event and asks before adding it to your '
+      description: 'When you agree on a time in conversation, Omi drafts the event and asks before adding it to your '
           'calendar.',
       rating: 4.7,
       reviews: 1284,

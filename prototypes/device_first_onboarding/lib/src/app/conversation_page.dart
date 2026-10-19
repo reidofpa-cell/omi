@@ -62,7 +62,8 @@ class _ConversationPageState extends State<ConversationPage> {
           ],
         ),
         const SizedBox(height: 18),
-        DfSegmented(labels: const <String>['Summary', 'Transcript'], index: _tab, onChanged: (i) => setState(() => _tab = i)),
+        DfSegmented(
+            labels: const <String>['Summary', 'Transcript'], index: _tab, onChanged: (i) => setState(() => _tab = i)),
         const SizedBox(height: 18),
         if (_tab == 0) ..._summary(t, c) else ..._transcript(t, c),
       ],

@@ -95,10 +95,10 @@ class DfOffer {
 
   /// "3 days", "1 week", "2 weeks", "30 days".
   static String trialPhrase(int days) => switch (days) {
-    7 => '1 week',
-    14 => '2 weeks',
-    _ => '$days days',
-  };
+        7 => '1 week',
+        14 => '2 weeks',
+        _ => '$days days',
+      };
 }
 
 /// What the user ended onboarding with.
