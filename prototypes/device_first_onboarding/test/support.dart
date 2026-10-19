@@ -28,4 +28,10 @@ Future<void> tapFinder(WidgetTester tester, Finder finder, {String? what}) async
 Future<void> tapText(WidgetTester tester, String text) => tapFinder(tester, find.text(text), what: '"$text"');
 
 Future<void> tapTooltip(WidgetTester tester, String tooltip) =>
-    tapFinder(tester, find.byTooltip(tooltip), what: 'tooltip "$tooltip"');
+    tapFinder(tester, find.byTooltip(tooltip).hitTestable(), what: 'tooltip "$tooltip"');
+
+/// Scrolls the main (first) list until [finder] is built and on screen.
+Future<void> scrollTo(WidgetTester tester, Finder finder) async {
+  await tester.scrollUntilVisible(finder, 200, scrollable: find.byType(Scrollable).first);
+  await settle(tester);
+}

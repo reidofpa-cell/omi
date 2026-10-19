@@ -97,9 +97,13 @@ class AppChip extends StatelessWidget {
                 Icon(icon, size: 15, color: selected ? t.background : t.textSecondary),
                 const SizedBox(width: 5),
               ],
-              Text(
-                label,
-                style: t.label(size: 13, weight: FontWeight.w500, color: selected ? t.background : t.text),
+              Flexible(
+                child: Text(
+                  label,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: t.label(size: 13, weight: FontWeight.w500, color: selected ? t.background : t.text),
+                ),
               ),
             ],
           ),

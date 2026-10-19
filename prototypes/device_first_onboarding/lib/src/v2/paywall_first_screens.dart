@@ -535,7 +535,8 @@ class AppStoreSheet extends StatelessWidget {
                         color: glow == null ? t.text : null,
                         gradient: glow == null ? null : LinearGradient(colors: glow),
                       ),
-                      child: const DfOmiMark(size: 11, color: Colors.white),
+                      padding: const EdgeInsets.all(6),
+                      child: const FittedBox(child: DfOmiMark(size: 11, color: Colors.white)),
                     ),
                     const SizedBox(width: 12),
                     Expanded(

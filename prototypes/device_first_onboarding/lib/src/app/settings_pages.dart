@@ -267,7 +267,7 @@ class _DevicePageState extends State<DevicePage> {
           children: <Widget>[
             Container(width: 8, height: 8, decoration: BoxDecoration(color: t.success, shape: BoxShape.circle)),
             const SizedBox(width: 6),
-            Text('Connected · 82% battery', style: t.body(size: 14)),
+            Flexible(child: Text('Connected · 82% battery', style: t.body(size: 14))),
           ],
         ),
         const SizedBox(height: 20),

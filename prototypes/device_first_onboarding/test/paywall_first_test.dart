@@ -163,6 +163,7 @@ void main() {
 
     expect(find.text('Ask Omi'), findsOneWidget);
     expect(find.text('Free plan'), findsOneWidget);
+    await scrollTo(tester, find.text('2 older conversations are locked'));
     expect(find.text('2 older conversations are locked'), findsOneWidget);
   });
 
@@ -188,6 +189,7 @@ void main() {
     await tapText(tester, 'Continue');
     await tapText(tester, 'Open Omi');
     expect(find.text('Free plan'), findsNothing);
+    await scrollTo(tester, find.text('Call with the landlord'));
     expect(find.text('Call with the landlord'), findsOneWidget, reason: 'older conversations are unlocked');
   });
 

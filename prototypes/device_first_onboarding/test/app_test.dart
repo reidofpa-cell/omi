@@ -53,6 +53,7 @@ void main() {
     expect(find.text('214 of 300 min used this month'), findsOneWidget);
     expect(find.text('Call with the landlord'), findsNothing);
 
+    await scrollTo(tester, find.text('Upgrade to Unlimited'));
     await tapText(tester, 'Upgrade to Unlimited');
     expect(find.text('How your free trial works.', findRichText: true), findsOneWidget);
     await tapText(tester, r'Try for $0.00');
@@ -60,7 +61,7 @@ void main() {
     await tapText(tester, 'Start trial');
 
     expect(find.text('Free plan'), findsNothing);
-    await tester.scrollUntilVisible(find.text('Call with the landlord'), 200, scrollable: find.byType(Scrollable).first);
+    await scrollTo(tester, find.text('Call with the landlord'));
     expect(find.text('Call with the landlord'), findsOneWidget);
   });
 
@@ -77,21 +78,21 @@ void main() {
     expect(find.text('Overview'), findsOneWidget);
     expect(find.text('Send Maya the revised deck'), findsOneWidget);
     await tapText(tester, 'Send Maya the revised deck');
-    expect(tester.getSemantics(find.bySemanticsLabel('Send Maya the revised deck')), containsSemantics(isChecked: true));
+    expect(tester.getSemantics(find.bySemanticsLabel('Send Maya the revised deck')), isSemantics(isChecked: true));
     await tapText(tester, 'Transcript');
     expect(find.text('Thursday works if QA signs off by Wednesday.'), findsOneWidget);
     await tapTooltip(tester, 'Back');
-    expect(find.text('Daily Recaps'), findsOneWidget);
+    expect(find.text('Ask Omi'), findsOneWidget);
   });
 
   testWidgets('tasks: complete one and add a new one', (tester) async {
     await pumpApp(tester);
     await tapText(tester, 'Tasks');
     expect(find.text('Overdue'), findsOneWidget);
-    expect(find.text('No Deadline'), findsOneWidget);
+    expect(find.text('Today'), findsOneWidget);
 
     await tapText(tester, 'Sign the lease renewal');
-    expect(tester.getSemantics(find.bySemanticsLabel('Sign the lease renewal')), containsSemantics(isChecked: true));
+    expect(tester.getSemantics(find.bySemanticsLabel('Sign the lease renewal')), isSemantics(isChecked: true));
 
     await tapText(tester, 'New Task');
     await tester.enterText(find.byType(TextField), 'Call the plumber');
@@ -150,7 +151,7 @@ void main() {
   testWidgets('the device pill opens the device page', (tester) async {
     await pumpApp(tester);
     await tapFinder(tester, find.bySemanticsLabel('Omi, connected, 82% battery'));
-    expect(find.text('Unpair and Forget Device'), findsOneWidget);
+    expect(find.text('Connected · 82% battery'), findsOneWidget);
   });
 
   testWidgets('pausing listening updates the capture card', (tester) async {

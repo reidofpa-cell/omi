@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../theme.dart';
-import '../widgets.dart';
 import 'app_state.dart';
 import 'app_widgets.dart';
 import 'mock_data.dart';
