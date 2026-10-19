@@ -10,9 +10,10 @@ void setSize(WidgetTester tester, Size size) {
   addTearDown(tester.view.reset);
 }
 
-/// Pumps a few frames; screens with looping animations never "settle".
+/// Pumps ~1.2 s of frames (long enough for Android's 800 ms page transition);
+/// screens with looping animations never "settle".
 Future<void> settle(WidgetTester tester) async {
-  for (var i = 0; i < 4; i++) {
+  for (var i = 0; i < 8; i++) {
     await tester.pump(const Duration(milliseconds: 150));
   }
 }

@@ -91,15 +91,15 @@ void main() {
     expect(find.text('Overdue'), findsOneWidget);
     expect(find.text('Today'), findsOneWidget);
 
-    await tapText(tester, 'Sign the lease renewal');
-    expect(tester.getSemantics(find.bySemanticsLabel('Sign the lease renewal')), isSemantics(isChecked: true));
-
     await tapText(tester, 'New Task');
     await tester.enterText(find.byType(TextField), 'Call the plumber');
     await settle(tester);
     await tapFinder(tester, find.descendant(of: find.byType(NewTaskSheet), matching: find.text('Tomorrow')));
     await tapText(tester, 'Add task');
     expect(find.text('Call the plumber'), findsOneWidget);
+    await tapText(tester, 'Sign the lease renewal');
+    expect(tester.getSemantics(find.bySemanticsLabel('Sign the lease renewal')), isSemantics(isChecked: true));
+
   });
 
   testWidgets('Ask Omi answers a suggestion with sources', (tester) async {
